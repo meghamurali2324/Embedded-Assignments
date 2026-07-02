@@ -6,9 +6,7 @@
  */
 
 
-/*
- * stm32f446re_i2c_driver.c
- */
+
 
 #include "stm32f446xx_i2c.h"
 
@@ -79,7 +77,7 @@ void I2C_MasterSendData(I2C_Handle_t *pI2CHandle,
 
 void I2C_DeInit(I2C_RegDef_t *pI2Cx)
 {
-    /* User can implement RCC reset here */
+    
 }
 
 void I2C_MasterReceiveData(I2C_Handle_t *pI2CHandle,
@@ -87,5 +85,5 @@ void I2C_MasterReceiveData(I2C_Handle_t *pI2CHandle,
                            uint32_t Len,
                            uint8_t SlaveAddr)
 {
-    /* Receive API can be implemented similarly */
+    
 }
