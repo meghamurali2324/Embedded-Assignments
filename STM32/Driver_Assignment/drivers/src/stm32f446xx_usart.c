@@ -5,9 +5,7 @@
  *      Author: megha
  */
 
-/*
- * stm32f446re_uart_driver.c
- */
+
 
 #include "stm32f446xx_usart.h"
 
@@ -108,5 +106,5 @@ void USART_PeripheralControl(USART_RegDef_t *pUSARTx, uint8_t EnOrDi)
 
 void USART_DeInit(USART_RegDef_t *pUSARTx)
 {
-    /* RCC reset macro can be added here */
+    
 }
